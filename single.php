@@ -13,8 +13,12 @@ get_header(); ?>
 	<single.php-->
 		<?php
 		
+		#var_dump(get_post_type());die;
+
 		if(get_post_type()!=="bgmp")
 			echo '<div id="content" class="site-content" role="main">';
+
+
 		else
 			echo '<div id="content" class="site-content-DESATIVADO" role="main">';
 		?>

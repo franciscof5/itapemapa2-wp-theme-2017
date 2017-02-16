@@ -26,6 +26,7 @@ if($_GET["bgmp-category"]) {
 	$t = explode("/", $_SERVER['REQUEST_URI']);
 	$catAtual = $t[2];
 }
+
 /*foreach ( $_GET as $key => $value ) {
 	$catAtual = $value;
 }*/

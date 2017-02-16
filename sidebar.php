@@ -159,7 +159,24 @@
 		<?php /*wp_nav_menu( array( 'theme_location' => 'secondary' ) );*/ ?>
 			<ul id="menu-lateral-twenty-fourteen2" class="menu">
 			<?php 
-				wp_list_categories( "taxonomy=categoria&child_of=175&hierachical=17&title_li=&show_count=1&echo=1" );
+				#wp_list_categories( "taxonomy=categoria&child_of=175&hierachical=17&title_li=&show_count=1&echo=1" );
+				/*$args = array(
+				  'taxonomy'     => "bgmp-category",
+				  'parent'     => 175,
+				  #'show_count'   => true,
+				  'pad_counts'   => true,
+				  'hierarchical' => true,
+				  'title_li'     => ""
+				);
+				wp_list_categories( $args );
+
+				$terms = get_terms( array( 
+				    'taxonomy' => 'bgmp-category',
+				    #'child_of'     => 175,
+				    #'parent'   => 175
+				) );*/
+				#var_dump( $terms );die;
+				wp_list_categories( "taxonomy=bgmp-category&child_of=175&hierachical=17&title_li=&show_count=0&echo=1" );
 			?>
 			</ul>
 	</nav>
