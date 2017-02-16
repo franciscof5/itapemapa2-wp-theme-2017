@@ -1490,8 +1490,12 @@ span + .edit-link:before,
 	display: block;
 }
 
-.primary-navigation a {
-	padding: 7px 0;
+/*.menu-item > a {
+#menu-principal-twenty-fourteen li > a {*
+.primary-navigation a {*/
+#menu-principal-twenty-fourteen > li > a {
+	/*padding: 7px 0;*/
+	padding: 5px 12px !important;
 }
 
 /* Secondary Navigation */
