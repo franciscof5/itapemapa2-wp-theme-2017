@@ -129,14 +129,14 @@ var_dump($tipo_assinatura);die;*/
 				</div>
 			<?php } */?>
 
-			<?php if ( is_user_logged_in() ) { ?> 
+			<?php #if ( is_user_logged_in() ) { ?> 
 				<li class="loginlogout menu-item">
 					<?php if ( is_user_logged_in() ) { ?> 
 						<a href="<?php echo wp_logout_url( get_permalink() ); ?>" title="Desconectar-se" >Sair</a>
 						<!--a href="<?php echo wp_logout_url('/') ?>">Log out</a-->
-					<?php } else { ?>
+					<?php } /*else { ?>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Acessar o sistema">Acessar</a>
-					<?php } ?>
+					<?php }*/ ?>
 					
 				</li>
 
@@ -151,7 +151,7 @@ var_dump($tipo_assinatura);die;*/
 
 				</nav>
 				<!--a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a-->
-			<?php } ?>
+			<?php #} ?>
 		</div>
 
 		<div id="search-container" class="search-box-wrapper hide">
