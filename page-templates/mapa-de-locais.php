@@ -35,9 +35,9 @@ wp_enqueue_script('mascara-campos');
 		$("#reg_billing_phone").mask("(99) 99999-9999");
 		$('[for="reg_billing_phone"]').html('Celular <span class="required">*</span>');
 		//
-		//TODO: ESPECIAL FUNCTION BECAUSE WHEN CHANGE ABOVE CHANGE OVERALL #CONTENT HEIGHT
-		if($(window).width()>670)
-			$("#secondary").height($("#content").height()+20);
+		//TODO: ESPECIAL FUNCTION BECAUSE WHEN CHANGE ABOVE CHANGE OVERALL #CONTENT HEIGHT (moved to sidebar.php)
+		//if($(window).width()>670)
+		//	$("#secondary").height($("#content").height()+20);
 		//
 		
 	});

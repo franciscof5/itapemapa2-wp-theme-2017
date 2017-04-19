@@ -80,7 +80,7 @@
 				<!--p>Para qualquer outro tipo de dúvida ou problema recomendo <a href="http://wp.me/P27Bpy-1Ro" alt="ir para página de suporte">abrir ticket geral</a>.</p>
 				<p><small>Prazo máximo de resposta:24h</small></p-->
 			</div>
-			<div style="width:25%;float:left;min-width: 300px; padding:20px;">
+			<div style="width:25%;float:left;min-width: 300px; padding:0 20px;">
 				<h4>Hospedagem <a href="http://www.f5sites.com" alt="Ir para um site externo F5 Sites">F5 Sites</a></h4>
 				<p>Hospede seu site ou projeto em nossos servidores</p>
 				<h4>Desenvolvimento: <a href="http://www.franciscomat.com" alt="Ir para um site externo F5 Sites">Francisco Mat</a></h4>

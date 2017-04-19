@@ -89,8 +89,8 @@
 	<?php endif; ?>
 	<br />
 
-
-	<style type="text/css">
+	<?php /*
+	<!--style type="text/css">
 		#menu-lateral-twenty-fourteen2 li {
 			height: 40px;
 			line-height: 40px;
@@ -145,14 +145,30 @@
 
 			/*$("#menu-lateral-twenty-fourteen2").children(function (i){
 				alert(i + " a " + ($(this).text()));
-			});*/
+			});*
 			//appendTo($(this).parent());
 			//alert(jQuery("#menu-lateral-twenty-fourteen2 li:content"));
 			//alert(jQuery("#menu-lateral-twenty-fourteen2 li:after").html());
 			//alert("12313");
 		});
-	</script>
-
+	</script-->
+	*/ ?>
+	
+	<?php if(is_front_page()) { ?>
+		<script type="text/javascript">
+			jQuery( document ).ready(function($) {
+					if($(window).width()>670)
+					$("#secondary").height($("#main").height()+800);
+			});
+		</script>
+	<?php } else { ?>
+		<script type="text/javascript">
+			jQuery( document ).ready(function($) {
+					if($(window).width()>670)
+					$("#secondary").height($("#main").height());
+			});
+		</script>
+	<?php } ?>
 	<?php if ( has_nav_menu( 'secondary' ) ) : ?>
 	
 	<nav role="navigation" class="navigation site-navigation secondary-navigation">

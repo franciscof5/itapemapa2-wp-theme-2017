@@ -120,9 +120,9 @@ jQuery( document ).ready(function($) {
 			$('#assinantes_ouro_list').html('<p style="margin-bottom:-50px">Seja o primeiro Assinante Ouro desta sub-categoria, <a href="/?p=6804" alt="criar uma conta Itapemapa">conheça nossos planos</a></p>');
 		}
 		$('.prata').prependTo('#bgmp_list');
-		//TODO: ESPECIAL FUNCTION BECAUSE WHEN CHANGE ABOVE CHANGE OVERALL #CONTENT HEIGHT
-		if($(window).width()>670)
-			$("#secondary").height($("#content").height()+20);
+		//TODO: ESPECIAL FUNCTION BECAUSE WHEN CHANGE ABOVE CHANGE OVERALL #CONTENT HEIGHT (moved to sidebar.php)
+		//if($(window).width()>670)
+		//	$("#secondary").height($("#content").height()+20);
 
 	//function codeAddress() {
 	var addressCasa = "<?php echo $adressCasa; ?>";
