@@ -87,9 +87,10 @@
 	<!--h2 class="site-description"><?php echo esc_html( $description ); ?></h2-->
 	
 	<?php endif; ?>
-	<br />
+	
 
 	<?php /*
+	<br />
 	<!--style type="text/css">
 		#menu-lateral-twenty-fourteen2 li {
 			height: 40px;
@@ -170,7 +171,7 @@
 		</script>
 	<?php } ?>
 	<?php if ( has_nav_menu( 'secondary' ) ) : ?>
-	
+	<h3>Comercial</h3>
 	<nav role="navigation" class="navigation site-navigation secondary-navigation">
 		<?php /*wp_nav_menu( array( 'theme_location' => 'secondary' ) );*/ ?>
 			<ul id="menu-lateral-twenty-fourteen2" class="menu">
@@ -196,6 +197,7 @@
 			?>
 			</ul>
 	</nav>
+	<h3>Árvores</h3>
 	<?php endif; ?>
 
 	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>

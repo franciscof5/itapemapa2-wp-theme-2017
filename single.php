@@ -10,7 +10,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-	<single.php-->
+	<!--single.php-->
 		<?php
 		
 		#var_dump(get_post_type());die;
