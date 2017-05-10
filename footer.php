@@ -69,7 +69,7 @@
 			</div>
 			<div style="width:30%;float:left;min-width: 300px;"  class="bubble bubble2">
 				<p style="font-size:18px;"><strong>Olá <?php global $current_user;get_currentuserinfo();echo $current_user->display_name; ?>, posso ajudar?</strong></p>
-				<p>WhatsApp: <strong>(11) 958 843 715</strong></p>
+				<!--p>WhatsApp: <strong>(11)</strong></p-->
 				<ul>
 					<li><strong>Comprar assinatura?</strong> <a href="/loja" alt="ir para a página de calendário de vendas">loja virtual de assinatura</a></li>
 					<li><strong>Visita de vendedor?</strong> <a href="/?p=7165" alt="ir para a página de calendário de vendas">agendar visita de vendas</a></li>
